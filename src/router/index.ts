@@ -7,7 +7,8 @@ const routes: Array<RouteConfig> = [
   {
     path: '/',
     name: 'index',
-    component: () => import(/* webpackChunkName: "index" */ '@/views/index.vue')
+    component: () =>
+      import(/* webpackChunkName: "index" */ '@/views/index/index.vue')
   }
 ]
 
